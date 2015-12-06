@@ -3,18 +3,13 @@
   box-sizing: border-box; }
 
 html {
-  height: 100%;
-  min-height: 100%;
   background: #eeeeee; }
 
 body {
-  font-family: 'Signika', sans-serif;
-  height: 100%;
-  min-height: 100%; }
+  font-family: 'Signika', sans-serif; }
 
 .container {
   max-width: 1200px;
-  height: 100%;
   margin: 0 auto;
   background: #000; }
 
@@ -253,91 +248,68 @@ nav li {
       font-size: 3em; } }
 
 /* ==============
-    Doors Section
+    Footer Section
    ============== */
-.doors-container {
+footer {
   padding: .5em 0; }
   @media screen and (min-width: 40em) {
-    .doors-container {
-      padding: 2em 0 0; } }
-  .doors-container ul {
+    footer {
+      padding: 2em 0; } }
+  footer ul {
     margin: 0;
     padding: 0 5%;
     list-style-type: none; }
     @media screen and (min-width: 40em) {
-      .doors-container ul {
+      footer ul {
         padding: 0; } }
-    .doors-container ul li {
+    footer ul li {
       width: 100%;
       height: 15em;
       margin: 4em 0;
       padding: 0;
       text-align: center;
-      border-radius: 10px; }
-      .doors-container ul li a {
+      border-radius: 10px;
+      background: #FFFFF0; }
+      footer ul li a {
         display: block;
         height: 100%;
         padding-top: 6em; }
-        .doors-container ul li a h1 {
+        footer ul li a h1 {
           padding: 0;
           margin: 0;
           color: #FFFFF0;
           font-size: 1.5em;
           font-weight: bold;
           text-shadow: 0.1em 0.1em 0.1em #000; }
-      .doors-container ul li p {
+      footer ul li p {
         color: #fff;
         margin: 0;
         padding: 0; }
       @media screen and (min-width: 40em) {
-        .doors-container ul li {
+        footer ul li {
           display: inline-block;
           width: 45%;
           margin: 0 2% 3em 2%; } }
       @media screen and (min-width: 60em) {
-        .doors-container ul li {
+        footer ul li {
           width: 22.5%;
           margin: 0 1% 2em 1%; } }
 
-.doors-auction-bloc {
+.footer-auction-bloc {
   background: url("../img/Doors/BlueDoor.jpg") right no-repeat;
   background-size: cover; }
 
-.doors-calendar-bloc {
+.footer-calendar-bloc {
   background: url("../img/Doors/OrangeDoor2.jpg") right no-repeat;
   background-size: cover; }
 
-.doors-about-bloc {
+.footer-about-bloc {
   background: url("../img/Doors/RedDoor.jpg") right no-repeat;
   background-size: cover; }
 
-.doors-uhaul-bloc {
+.footer-uhaul-bloc {
   background: url("../img/Doors/GreenDoor.jpg") right no-repeat;
   background-size: cover; }
-
-/* ==============
-    FOOTER Section
-   ============== */
-footer {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  padding: .7rem 0;
-  background: #000; }
-  footer ul {
-    margin: 0 auto;
-    list-style-type: none;
-    text-align: center;
-    color: #fff;
-    font-size: 1.1em;
-    font-weight: 300; }
-    footer ul li {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      letter-spacing: 1.5px; }
 
 /* ==========================================================================
    Helper classes
@@ -352,125 +324,3 @@ footer {
 
 .clearfix {
   *zoom: 1; }
-
-.active > a {
-  color: #3DFF6D; }
-
-/* ==========================================================================
-   Auction Page
-   ========================================================================== */
-.auction-container {
-  width: 960px;
-  margin: 2rem auto;
-  background: #FFFFF0;
-  padding: 0 0 4rem; }
-  .auction-container h1 {
-    padding: 2rem 0 0 1rem;
-    color: #2BB24C;
-    font-size: 2rem; }
-
-.auctions {
-  margin-top: 3rem;
-  padding: 0 2rem 0 2rem; }
-
-.auction-listings {
-  width: 100%; }
-  .auction-listings th {
-    padding: 3px;
-    background: #2BB24C;
-    color: #FFFFF0;
-    text-align: left;
-    text-shadow: 2px 2px 2px black; }
-  .auction-listings td {
-    background: #DCDCDC;
-    padding: 6px; }
-
-.auction-headings {
-  font-size: 1.3rem;
-  border: 1px solid black;
-  margin-bottom: 1rem; }
-
-.spacer td {
-  height: 10px;
-  background: #FFFFF0; }
-
-.storage-image img {
-  width: 70px;
-  height: auto; }
-
-.company-name h2 {
-  margin: 0;
-  padding: 0; }
-
-.address,
-.city-state,
-.date,
-.time,
-.units,
-.details {
-  font-size: 1.2rem; }
-
-.units {
-  text-align: center; }
-
-/* ==========================================================================
-   Calendar Page
-   ========================================================================== */
-.calendar-container {
-  width: 960px;
-  margin: 2rem auto;
-  background: #FFFFF0;
-  padding: 0 0 4rem; }
-  .calendar-container h1 {
-    padding: 2rem 0 0 1rem;
-    color: #2BB24C;
-    font-size: 2rem; }
-
-/* ==========================================================================
-   Rules Page
-   ========================================================================== */
-.rules-container {
-  width: 960px;
-  margin: 2rem auto;
-  background: #FFFFF0;
-  padding: 0 0 4rem; }
-  .rules-container h1 {
-    padding: 2rem 0 0 1rem;
-    color: #2BB24C;
-    font-size: 2rem; }
-  .rules-container p {
-    padding: 0 2rem; }
-
-#rules {
-  padding: 2rem 2rem; }
-  #rules h2 {
-    font-family: 'Signika', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #2BB24C;
-    margin-bottom: 1.7rem; }
-  #rules article {
-    font-family: 'Signika', sans-serif;
-    margin-top: -1.7rem;
-    margin-bottom: 2rem; }
-
-/* ==========================================================================
-   About Page
-   ========================================================================== */
-.about-container {
-  background: #DCDCDC;
-  overflow: auto;
-  width: 100%; }
-
-.mission-statement,
-.about {
-  width: 40%;
-  height: 600px;
-  float: left;
-  margin: 4.5%;
-  background-color: #FFFFF0;
-  border: 1px solid #2BB24C;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px #000;
-  text-align: center;
-  padding: 1rem 2rem; }
