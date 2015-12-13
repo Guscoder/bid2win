@@ -11,7 +11,11 @@ $grey: #DCDCDC;
 
 
 html{
+<<<<<<< HEAD
   height: 100%;
+=======
+  height: auto;
+>>>>>>> refs/remotes/origin/master
   min-height: 100%;
   background: #eeeeee;
 }
@@ -327,6 +331,7 @@ nav li{
 
 .doors-container {
     padding: .5em 0;
+    background: #000;
     @media screen and (min-width: 40em) {
       padding: 2em 0 0;
     }
@@ -407,25 +412,48 @@ footer{
   width: 100%;
   max-width: 1200px;
   height: auto;
+<<<<<<< HEAD
   position: absolute;
   bottom: 0;
   padding: .7rem 0;
   background: #000;
 
   ul {
+=======
+  padding: .7rem 0;
+  margin: 0;
+  background: #000;
+
+  ul {
+    padding: 0;
+>>>>>>> refs/remotes/origin/master
     margin: 0 auto;
     list-style-type: none;
     text-align: center;
     color: #fff;          
+<<<<<<< HEAD
     font-size: 1.1em;
+=======
+    font-size: 1rem;
+>>>>>>> refs/remotes/origin/master
     font-weight: 300;
     @media screen and (min-width: 40em) {
         }
     li{
       display: inline-block;
         margin: 0; 
+<<<<<<< HEAD
         padding: 0;    
         letter-spacing: 1.5px;
+=======
+        padding: 0 1.5rem;    
+        letter-spacing: 1.5px;
+        @media screen and (max-width: 560px) {
+          display: block;
+          text-align: center;
+          font-size: 1.5rem
+        }
+>>>>>>> refs/remotes/origin/master
       }
     }
 }
@@ -464,10 +492,20 @@ footer{
   margin: 2rem auto;
   background: $white;
   padding: 0 0 4rem;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
+>>>>>>> refs/remotes/origin/master
   h1{
     padding: 2rem 0 0 1rem;
     color: $dkgreen;
     font-size: 2rem;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> refs/remotes/origin/master
   }
 }
 
@@ -477,8 +515,19 @@ footer{
 }
 
 
+<<<<<<< HEAD
 .auction-listings{
   width: 100%;
+=======
+.auction-listing{
+  width: 100%;
+  background: $grey;
+  margin: 1rem 0;
+  @media screen and (max-width: 680px) {
+    border: 2px solid $dkgreen;
+    border-radius: 5px;
+  }
+>>>>>>> refs/remotes/origin/master
   th{
     padding: 3px;
     background: $dkgreen;
@@ -496,9 +545,19 @@ footer{
     font-size: 1.3rem;
     border: 1px solid black;
     margin-bottom: 1rem;
+<<<<<<< HEAD
 }
 
 .auction-item{
+=======
+     @media screen and (max-width: 680px) {
+    display: none;
+  }
+}
+
+.auction-item{
+
+>>>>>>> refs/remotes/origin/master
 }
 
 .spacer td{
@@ -509,12 +568,33 @@ footer{
 .storage-image img{
   width: 70px;
   height: auto;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 680px) {
+    width: 100px;
+  }
+  @media screen and (max-width: 440px) {
+    width: 70px;
+  }
+>>>>>>> refs/remotes/origin/master
 }
 
 
 .company-name h2{
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 939px) {
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: 680px) {
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 559px) {
+    font-size: 1.5rem;
+  }
+>>>>>>> refs/remotes/origin/master
 }
 
 .address,
@@ -524,10 +604,35 @@ footer{
 .units,
 .details{
   font-size: 1.2rem;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 939px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 680px) {
+    display: block;
+    width: 300px;
+    font-size: 1.4rem;
+  }
+  @media screen and (max-width: 559px) {
+    width: 200px;
+    font-size: 1.2rem;
+  }
+  @media screen and (max-width: 440px) {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+>>>>>>> refs/remotes/origin/master
 }
 
 .units{
   text-align: center;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 680px) {
+    text-align: left;
+  }
+>>>>>>> refs/remotes/origin/master
 }
 
 /* ==========================================================================
@@ -539,6 +644,12 @@ footer{
   margin: 2rem auto;
   background: $white;
   padding: 0 0 4rem;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
+>>>>>>> refs/remotes/origin/master
   h1{
     padding: 2rem 0 0 1rem;
     color: $dkgreen;
@@ -553,9 +664,18 @@ footer{
 
 .rules-container{
   width: 960px;
+<<<<<<< HEAD
   margin: 2rem auto;
   background: $white;
   padding: 0 0 4rem;
+=======
+  margin: 2rem auto 0;
+  background: $white;
+  padding: 0 0 4rem;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
+>>>>>>> refs/remotes/origin/master
   h1{
     padding: 2rem 0 0 1rem;
     color: $dkgreen;
@@ -591,7 +711,13 @@ footer{
 .about-container{
   background: $grey;
   overflow: auto;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 90%;
+  min-height: 90%; 
+  margin: 0 auto;
+>>>>>>> refs/remotes/origin/master
 }
 
 .mission-statement,
@@ -606,5 +732,14 @@ footer{
   box-shadow: 10px 10px 10px #000;
   text-align: center;
   padding: 1rem 2rem;
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    height: auto;
+    display: block;
+    float: none;
+  }
+>>>>>>> refs/remotes/origin/master
 }
 

@@ -3,7 +3,11 @@
   box-sizing: border-box; }
 
 html {
+<<<<<<< HEAD
   height: 100%;
+=======
+  height: auto;
+>>>>>>> refs/remotes/origin/master
   min-height: 100%;
   background: #eeeeee; }
 
@@ -256,7 +260,12 @@ nav li {
     Doors Section
    ============== */
 .doors-container {
+<<<<<<< HEAD
   padding: .5em 0; }
+=======
+  padding: .5em 0;
+  background: #000; }
+>>>>>>> refs/remotes/origin/master
   @media screen and (min-width: 40em) {
     .doors-container {
       padding: 2em 0 0; } }
@@ -322,22 +331,44 @@ footer {
   width: 100%;
   max-width: 1200px;
   height: auto;
+<<<<<<< HEAD
   position: absolute;
   bottom: 0;
   padding: .7rem 0;
   background: #000; }
   footer ul {
+=======
+  padding: .7rem 0;
+  margin: 0;
+  background: #000; }
+  footer ul {
+    padding: 0;
+>>>>>>> refs/remotes/origin/master
     margin: 0 auto;
     list-style-type: none;
     text-align: center;
     color: #fff;
+<<<<<<< HEAD
     font-size: 1.1em;
+=======
+    font-size: 1rem;
+>>>>>>> refs/remotes/origin/master
     font-weight: 300; }
     footer ul li {
       display: inline-block;
       margin: 0;
+<<<<<<< HEAD
       padding: 0;
       letter-spacing: 1.5px; }
+=======
+      padding: 0 1.5rem;
+      letter-spacing: 1.5px; }
+      @media screen and (max-width: 560px) {
+        footer ul li {
+          display: block;
+          text-align: center;
+          font-size: 1.5rem; } }
+>>>>>>> refs/remotes/origin/master
 
 /* ==========================================================================
    Helper classes
@@ -364,24 +395,51 @@ footer {
   margin: 2rem auto;
   background: #FFFFF0;
   padding: 0 0 4rem; }
+<<<<<<< HEAD
   .auction-container h1 {
     padding: 2rem 0 0 1rem;
     color: #2BB24C;
     font-size: 2rem; }
+=======
+  @media screen and (max-width: 1000px) {
+    .auction-container {
+      width: 90%; } }
+  .auction-container h1 {
+    padding: 2rem 0 0 1rem;
+    color: #2BB24C;
+    font-size: 2rem;
+    text-align: center; }
+>>>>>>> refs/remotes/origin/master
 
 .auctions {
   margin-top: 3rem;
   padding: 0 2rem 0 2rem; }
 
+<<<<<<< HEAD
 .auction-listings {
   width: 100%; }
   .auction-listings th {
+=======
+.auction-listing {
+  width: 100%;
+  background: #DCDCDC;
+  margin: 1rem 0; }
+  @media screen and (max-width: 680px) {
+    .auction-listing {
+      border: 2px solid #2BB24C;
+      border-radius: 5px; } }
+  .auction-listing th {
+>>>>>>> refs/remotes/origin/master
     padding: 3px;
     background: #2BB24C;
     color: #FFFFF0;
     text-align: left;
     text-shadow: 2px 2px 2px black; }
+<<<<<<< HEAD
   .auction-listings td {
+=======
+  .auction-listing td {
+>>>>>>> refs/remotes/origin/master
     background: #DCDCDC;
     padding: 6px; }
 
@@ -389,6 +447,12 @@ footer {
   font-size: 1.3rem;
   border: 1px solid black;
   margin-bottom: 1rem; }
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 680px) {
+    .auction-headings {
+      display: none; } }
+>>>>>>> refs/remotes/origin/master
 
 .spacer td {
   height: 10px;
@@ -397,10 +461,31 @@ footer {
 .storage-image img {
   width: 70px;
   height: auto; }
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 680px) {
+    .storage-image img {
+      width: 100px; } }
+  @media screen and (max-width: 440px) {
+    .storage-image img {
+      width: 70px; } }
+>>>>>>> refs/remotes/origin/master
 
 .company-name h2 {
   margin: 0;
   padding: 0; }
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 939px) {
+    .company-name h2 {
+      font-size: 1.3rem; } }
+  @media screen and (max-width: 680px) {
+    .company-name h2 {
+      font-size: 1.7rem; } }
+  @media screen and (max-width: 559px) {
+    .company-name h2 {
+      font-size: 1.5rem; } }
+>>>>>>> refs/remotes/origin/master
 
 .address,
 .city-state,
@@ -409,9 +494,54 @@ footer {
 .units,
 .details {
   font-size: 1.2rem; }
+<<<<<<< HEAD
 
 .units {
   text-align: center; }
+=======
+  @media screen and (max-width: 939px) {
+    .address,
+    .city-state,
+    .date,
+    .time,
+    .units,
+    .details {
+      font-size: 1rem; } }
+  @media screen and (max-width: 680px) {
+    .address,
+    .city-state,
+    .date,
+    .time,
+    .units,
+    .details {
+      display: block;
+      width: 300px;
+      font-size: 1.4rem; } }
+  @media screen and (max-width: 559px) {
+    .address,
+    .city-state,
+    .date,
+    .time,
+    .units,
+    .details {
+      width: 200px;
+      font-size: 1.2rem; } }
+  @media screen and (max-width: 440px) {
+    .address,
+    .city-state,
+    .date,
+    .time,
+    .units,
+    .details {
+      width: 100%;
+      font-size: 1.2rem; } }
+
+.units {
+  text-align: center; }
+  @media screen and (max-width: 680px) {
+    .units {
+      text-align: left; } }
+>>>>>>> refs/remotes/origin/master
 
 /* ==========================================================================
    Calendar Page
@@ -421,6 +551,12 @@ footer {
   margin: 2rem auto;
   background: #FFFFF0;
   padding: 0 0 4rem; }
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 1000px) {
+    .calendar-container {
+      width: 90%; } }
+>>>>>>> refs/remotes/origin/master
   .calendar-container h1 {
     padding: 2rem 0 0 1rem;
     color: #2BB24C;
@@ -431,9 +567,18 @@ footer {
    ========================================================================== */
 .rules-container {
   width: 960px;
+<<<<<<< HEAD
   margin: 2rem auto;
   background: #FFFFF0;
   padding: 0 0 4rem; }
+=======
+  margin: 2rem auto 0;
+  background: #FFFFF0;
+  padding: 0 0 4rem; }
+  @media screen and (max-width: 1000px) {
+    .rules-container {
+      width: 90%; } }
+>>>>>>> refs/remotes/origin/master
   .rules-container h1 {
     padding: 2rem 0 0 1rem;
     color: #2BB24C;
@@ -460,7 +605,13 @@ footer {
 .about-container {
   background: #DCDCDC;
   overflow: auto;
+<<<<<<< HEAD
   width: 100%; }
+=======
+  width: 90%;
+  min-height: 90%;
+  margin: 0 auto; }
+>>>>>>> refs/remotes/origin/master
 
 .mission-statement,
 .about {
@@ -474,3 +625,13 @@ footer {
   box-shadow: 10px 10px 10px #000;
   text-align: center;
   padding: 1rem 2rem; }
+<<<<<<< HEAD
+=======
+  @media screen and (max-width: 768px) {
+    .mission-statement,
+    .about {
+      width: 90%;
+      height: auto;
+      display: block;
+      float: none; } }
+>>>>>>> refs/remotes/origin/master
